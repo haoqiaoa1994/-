@@ -1,0 +1,188 @@
+/*聚焦行业*/
+.jjhy5{
+  width: 100%;
+  height: 605px;
+  background: url("../img/edu-bg.png") no-repeat center;
+  color:#fff;
+}
+/*.jjhy5.bgim0{
+  background: url("../img/edu-bg.png") no-repeat center;
+}
+.jjhy5.bgim1{
+  background: url("../img/game-bg.png") no-repeat center;
+}
+.jjhy5.bgim2{
+  background: url("../img/gold-bg.png") no-repeat center;
+}
+.jjhy5.bgim3{
+  background: url("../img/med-bg.png") no-repeat center;
+}*/
+  /*聚焦行业标题*/
+.jjhy5 .top5 h2{
+  padding: 50px 0 60px;
+  font-size:26px;
+  line-height: 26px;
+}
+  /*聚焦行业左半部分*/
+.jjhy5 .left5 ul{
+  padding-left: 30px;
+  font-size: 16px;
+  width: 135px;
+}
+.jjhy5 .left5 li{
+  width: 95px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin:20px;
+}
+    /*鼠标进入改变li的背景颜色*/
+.jjhy5 .left5 .bgc5{
+  background-color: #387ee8;
+}
+  /*聚焦行业右半部分*/
+.jjhy5 .right5{
+  width: 935px;
+  height: 351px;
+  border-left: 1px solid #bbb;
+  padding: 25px 39px 28px 40px;
+  font-size: 14px;
+  position: relative;
+}
+.jjhy5 .right5>ul>li{
+  position: absolute;
+  left: 40px;
+  top: 25px;
+  display: none;
+}
+    /*鼠标进入左侧li，改变右侧内容*/
+.jjhy5 .right5>ul>li.active5{
+  display: block;
+}
+.jjhy5 .right5 h4{
+  font-size: 18px;
+  font-weight: 700;
+}
+.jjhy5 .right5 .list5{
+  /*width: 1050px;*/
+  margin-top: 40px;
+}
+.jjhy5 .right5 .list5>li{
+  width: 400px;
+  height: 126px;
+}
+.jjhy5 .right5 .list5>li:nth-child(1),.jjhy5 .right5 .list5>li:nth-child(3){
+  margin-right: 125px;
+}
+.jjhy5 .right5 .list5 .list-top5{
+  height: 30px;
+}
+.jjhy5 .right5 .list5 p{
+  color: #bbb;
+  margin-top: 14px;
+}
+.jjhy5 .right5 a{
+  display: inline-block;
+  width: 144px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border:1px solid #fff;
+  color: #fff;
+}
+.jjhy5 .right5 a:hover{
+  background-color: #fff;
+  color: #333;
+}
+
+/*成功案例*/
+.cgal5{
+  width: 100%;
+  height: 477px;
+}
+.cgal5 .topch5 h2{
+  font-size: 26px;
+  line-height: 26px;
+  padding: 57px 0 37px;
+  letter-spacing: 2px;
+  color: #333;
+}
+.cgal5 .proch5{
+  height: 320px;
+}
+.cgal5 .proch5 li{
+  width: 350px;
+  height: 320px;
+  padding: 0 20px;
+}
+.cgal5 .proch5 li a{
+  height: 320px;
+  display: block;
+  padding: 50px 34px 0;
+  box-sizing: border-box;
+}
+.cgal5 .proch5 li a:hover{
+  box-shadow: 0 0 3px 3px #eee;
+}
+.cgal5 .proch5 li .imgch5{
+  text-align: center;
+}
+.cgal5 .proch5 li h4{
+  margin: 13px 0 20px;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.cgal5 .proch5 li p{
+  color: #666;
+  font-size: 14px;
+}
+
+/*方案与报价*/
+.faybj{
+  width: 100%;
+  height: 304px;
+  /*渐变色*/
+  background-image: linear-gradient(to right,#326ec9,#34babf);
+  color: #fff;
+}
+.faybj .topfa5 h2{
+  font-size: 26px;
+  line-height: 26px;
+  padding: 50px 0 45px;
+  letter-spacing: 2px;
+}
+.faybj .profa5 li{
+  height: 50px;
+  margin-right: 35px;
+}
+.faybj .profa5 li span{
+  display: inline-block;
+  width: 86px;
+  height: 40px;
+  padding: 0 32px 0 16px;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.faybj .profa5 li:last-child{
+  margin: 0;
+}
+.faybj .contentfa5{
+  height: 40px;
+  padding-top: 44px;
+}
+.faybj .contentfa5 a{
+  width: 173px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+.faybj .contentfa5 a:hover{
+  background-color: #fff;
+  color: #326ec9;
+}

@@ -1,0 +1,505 @@
+.m-exc-safety {
+  height: 708px;
+}
+
+.m-exc-safety .exc-safety-tt {
+  padding: 74px 0 38px;
+  color: #333;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.m-exc-safety .exc-safety-cont {
+  position: relative;
+  width: 952px;
+  height: 504px;
+  margin: 0 auto;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safety-base {
+  z-index: 1;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one {
+  position: absolute;
+  top: 20px;
+  left: 46px;
+
+  transition: top 0.2s;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one .safe-des {
+  display: none;
+  position: absolute;
+
+  box-sizing: border-box;
+  z-index: 2;
+  width: 200px;
+  top: -136px;
+  left: -36px;
+  text-align: center;
+
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one .safe-des .safe-ul {
+  display: inline-block;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, .65);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 2px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one .safe-des .safe-ul li {
+  position: relative;
+  padding-left: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one .safe-des .safe-ul li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  left: 0;
+  top: 9px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one .safe-des .safe-arrow {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  bottom: -6px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgba(0, 0, 0, .65);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one .li-hoverimg {
+  display: none;
+  background: url(../img/safehover1.png) 0 0 no-repeat;
+  background-image: image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+  background-image: -moz-image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+  background-image: -ms-image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one .safe1-name {
+  cursor: default;
+
+  box-sizing: border-box;
+  z-index: 2;
+  width: 135px;
+  height: 61px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  overflow: hidden;
+  background: url(../img/safe1.png) 0 0 no-repeat;
+  background-image: image-set(url(../img/safe1.png) 1x, url(../img/safe1@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/safe1.png) 1x, url(../img/safe1@2x.png) 2x);
+  background-image: -moz-image-set(url(../img/safe1.png) 1x, url(../img/safe1@2x.png) 2x);
+  background-image: -ms-image-set(url(../img/safe1.png) 1x, url(../img/safe1@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safe1.png) 1x, url(../img/safe1@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safe1.png) 1x, url(../img/safe1@2x.png) 2x);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one.one1 {
+  left: 191px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one.one2 {
+  left: 336px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one.one2 .safe-des {
+  top: -94px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one.one3 {
+  left: 481px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one.one3 .safe-des {
+  top: -157px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one.one4 {
+  left: 626px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one.one5 {
+  left: 771px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one.one5 .safe-des {
+  top: -73px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one:hover {
+  top: 15px;
+  height: 66px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one:hover .safe1-name {
+  background: url(../img/safehover1.png) 0 0 no-repeat;
+  background-image: image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+  background-image: -moz-image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+  background-image: -ms-image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safehover1.png) 1x, url(../img/safehover1@2x.png) 2x);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-one:hover .safe-des {
+  display: inline-block;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two {
+  position: absolute;
+  top: 174px;
+  left: 46px;
+
+  transition: top 0.2s;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two .safe-des {
+  display: none;
+  position: absolute;
+
+  box-sizing: border-box;
+  z-index: 3;
+  width: 208px;
+  top: -130px;
+  left: -6px;
+  text-align: center;
+
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two .safe-des .safe-ul {
+  display: inline-block;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, .65);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 2px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two .safe-des .safe-ul li {
+  position: relative;
+  padding-left: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two .safe-des .safe-ul li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  left: 0;
+  top: 9px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two .safe-des .safe-arrow {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  bottom: -6px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgba(0, 0, 0, .65);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two .safe2-name {
+  cursor: default;
+
+  box-sizing: border-box;
+  z-index: 3;
+  width: 208px;
+  height: 61px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  overflow: hidden;
+  background: url(../img/safe2.png) 0 0 no-repeat;
+  background-image: image-set(url(../img/safe2.png) 1x, url(../img/safe2@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/safe2.png) 1x, url(../img/safe2@2x.png) 2x);
+  background-image: -moz-image-set(url(../img/safe2.png) 1x, url(../img/safe2@2x.png) 2x);
+  background-image: -ms-image-set(url(../img/safe2.png) 1x, url(../img/safe2@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safe2.png) 1x, url(../img/safe2@2x.png) 2x);
+  background: url("../img/safe2.png");
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two .li-hoverimg {
+  display: none;
+  background: url(../img/safehover2.png) 0 0 no-repeat;
+  background-image: image-set(url(../img/safehover2.png) 1x, url(../img/safehover2@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/safehover2.png) 1x, url(../img/safehover2@2x.png) 2x);
+  background-image: -moz-image-set(url(../img/safehover2.png) 1x, url(../img/safehover2@2x.png) 2x);
+  background-image: -ms-image-set(url(../img/safehover2.png) 1x, url(../img/safehover2@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safehover2.png) 1x, url(../img/safehover2@2x.png) 2x);
+  background: url("../img/safe2.png");
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two.two0 .safe-des {
+  top: -73px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two.two1 {
+  left: 264px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two.two1 .safe-des {
+  top: -52px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two.two2 {
+  left: 482px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two.two2 .safe-des {
+  top: -115px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two.two3 {
+  left: 700px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two.two3 .safe-des {
+  top: -94px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two:hover {
+  top: 169px;
+  height: 66px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two:hover .safe2-name {
+  background: url(../img/safe2.png) 0 0 no-repeat;
+  background-image: image-set(url(../img/safe2.png) 1x, url(../img/safe2.png) 2x);
+  background-image: -webkit-image-set(url(../img/safe2.png) 1x, url(../img/safe2.png) 2x);
+  background-image: -moz-image-set(url(../img/safe2.png) 1x, url(../img/safe2.png) 2x);
+  background-image: -ms-image-set(url(../img/safe2.png) 1x, url(../img/safe2.png) 2x);
+  background-image: -o-image-set(url(../img/safe2.png) 1x, url(../img/safe2.png) 2x);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-two:hover .safe-des {
+  display: inline-block;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three {
+  position: absolute;
+  top: 327px;
+  left: 56px;
+
+  transition: top 0.2s;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three .safe-des {
+  display: none;
+  position: absolute;
+  /*-moz-box-sizing: border-box;*/
+  box-sizing: border-box;
+  z-index: 4;
+  width: 200px;
+  top: -130px;
+  left: -66px;
+  text-align: center;
+
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three .safe-des .safe-ul {
+  display: inline-block;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, .65);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 2px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three .safe-des .safe-ul li {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 12px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three .safe-des .safe-ul li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  left: 0;
+  top: 9px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three .safe-des .safe-arrow {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  bottom: -6px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgba(0, 0, 0, .65);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three .li-hoverimg {
+  display: none;
+  background: url(../img/safehover3.png) 0 0 no-repeat;
+  background-image: image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+  background-image: -moz-image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+  background-image: -ms-image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three .safe3-name {
+  cursor: default;
+
+  box-sizing: border-box;
+  z-index: 4;
+  width: 76px;
+  height: 66px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  padding: 12px 19px 0 14px;
+  overflow: hidden;
+  background: url(../img/safe3.png) 0 0 no-repeat;
+  background-image: image-set(url(img/safe3.png) 1x, url(../img/safe3@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/safe3.png) 1x, url(../img/safe3@2x.png) 2x);
+  background-image: -moz-image-set(url(../img/safe3.png) 1x, url(../img/safe3@2x.png) 2x);
+  background-image: -ms-image-set(url(../img/safe3.png) 1x, url(../img/safe3@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safe3.png) 1x, url(../img/safe3@2x.png) 2x);
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three0 .safe-des {
+  top: -157px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three1 {
+  left: 139px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three1 .safe-des {
+  top: -94px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three2 {
+  left: 222px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three2 .safe3-name {
+  padding: 12px 26px 0 21px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three2 .safe-des {
+  top: -115px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three3 {
+  left: 305px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three3 .safe-des {
+  top: -94px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three4 {
+  left: 388px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three4 .safe-des {
+  top: -199px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three5 {
+  left: 471px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three5 .safe-des {
+  top: -94px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three6 {
+  left: 554px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three6 .safe3-name {
+  padding: 21px 19px 0 14px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three6 .safe-des {
+  top: -73px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three7 {
+  left: 664px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three7 .safe3-name {
+  padding: 12px 26px 0 21px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three7 .safe-des {
+  top: -157px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three8 {
+  left: 746px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three8 .safe3-name {
+  padding: 12px 26px 0 21px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three8 .safe-des {
+  top: -115px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three9 {
+  left: 828px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three.three9 .safe-des {
+  top: -157px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three:hover {
+  top: 322px;
+  height: 66px;
+}
+
+.m-exc-safety .exc-safety-cont .exc-safe-three:hover .safe3-name {
+  background: url(../img/safehover3.png) 0 0 no-repeat;
+  background-image: image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+  background-image: -moz-image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+  background-image: -ms-image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+  background-image: -o-image-set(url(../img/safehover3.png) 1x, url(../img/safehover3@2x.png) 2x);
+}
+.m-exc-safety .exc-safety-cont .exc-safe-three:hover .safe-des {
+  display: inline-block;
+}

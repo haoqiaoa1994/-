@@ -1,0 +1,283 @@
+
+/*.content1_7.active {*/
+  /*display: block;*/
+/*}*/
+.w_7 {
+  width: 1120px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.content1_1_7 {
+  position: absolute;
+  width: 100%;
+  height: 557px;
+  left: 0;
+  top: 65px;
+  background-color: rgba(33,47,68,0.95);
+  /*opacity: 0;*/
+  display: none;
+
+  /*overflow: hidden;*/
+}
+
+.content1_1_7.active {
+  display: block;
+}
+.content1_1_7 .cebianlan_7 {
+  position: absolute;
+  top: 20px;
+}
+.content1_1_7 .cebianlan_7 .cebianlan_li_7 {
+  width: 145px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+.content1_1_7 .cebianlan_7 .cebianlan_li_7.active {
+  background-color: #387EE8;
+}
+.xiala1_1_7 {
+  height: 504px;
+  position: absolute;
+  left: 165px;
+  top: 20px;
+  padding-left: 30px;
+  overflow: auto;
+  /*overflow-y: auto;*/
+  display: none;
+}
+/*.xiala1_1_7 {*/
+  /*overflow: hidden;*/
+  /*overflow-y: auto;*/
+/*}*/
+/*.xiala1_1_7::webkit-scrollbar {*/
+  /*display: none;*/
+/*}*/
+.xiala1_1_7.active {
+  display: block;
+}
+.content1_1_7 h3 {
+  font-size: 16px;
+  height: 34px;
+  color: #fff;
+}
+.content1_1_7 h3 a:hover {
+  text-decoration: underline;
+}
+.aaa_7 {
+  font-size: 13px;
+  color: #969DA7;
+  /*height: 24px;*/
+}
+.bbb_7 a {
+  display: inline-block;
+  width: 270px;
+  height: 58px;
+  padding-left: 15px;
+  /*padding-top: 5px;*/
+  background-color: #374457;
+  margin-right: 19px;
+  float: left;
+  margin-bottom: 8px;
+}
+.bbb_7 a:hover {
+  background-color: #387EE8;
+}
+.content1_1_7 .bbb_7 a h4{
+  height: 25px;
+  font-size: 14px;
+  color: #fff;
+}
+.content1_1_7 .bbb_7 a p {
+  font-size: 12px;
+  color: #AAB0B7;
+}
+.content1_1_7 h3 a {
+  color: #fff;
+}
+
+
+
+
+
+/*底部箭头*/
+.bottom_7 {
+  height: 32px;
+  width: 100%;
+  background-color: rgba(33,47,68,0.1);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 32px;
+  /*display: none;*/
+}
+.bottom_7.active {
+  display: block;
+}
+.bottom_7 img {
+  cursor: pointer;
+}
+
+
+
+
+/*解决方案下拉*/
+.content1_2_7 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 65px;
+  background-color: #212F44;
+  opacity: 1;
+  display: none;
+  height: 320px;
+}
+.content1_2_7.active {
+  display: block;
+}
+.content1_2_7 .one_7 {
+  margin-top: 28px;
+}
+.content1_2_7 .one_7 li {
+  float: left;
+  width: 150px;
+  height: 35px;
+  /*padding-top: 8px;*/
+  padding-left: 15px;
+  margin-right: 60px;
+  background-color: #374457;
+  font-size: 14px;
+}
+.content1_2_7 .one_7 li a {
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.content1_2_7 .one_7 li:hover {
+  background-color: #387EE8;
+}
+
+
+
+
+
+/*文档与支持下拉*/
+.content1_3_7 {
+  position: absolute;
+  height: 295px;
+  padding-top: 25px;
+  width: 100%;
+  left: 0;
+  top: 65px;
+  background-color: #212F44;
+  opacity: 1;
+  display: none;
+}
+.content1_3_7.active {
+  display: block;
+}
+.content1_3_7 dl {
+  float: left;
+  margin-right: 60px;
+}
+.content1_3_7 dl dt {
+  font-size: 13px;
+  color: #969DA7;
+  /*height: 24px;*/
+}
+.content1_3_7 dl dd a {
+  display: inline-block;
+  background-color: #374457;
+  font-size: 14px;
+  width: 150px;
+  height: 34px;
+  /*padding-top: 8px;*/
+  padding-left: 15px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.content1_3_7 dl dd a:hover {
+  background-color: #387EE8;
+}
+
+
+
+
+
+/*合作与生态下拉*/
+.content1_4_7 {
+  position: absolute;
+  height: 327px;
+  padding-top: 25px;
+  width: 100%;
+  left: 0;
+  top: 65px;
+  background-color: #212F44;
+  opacity: 1;
+  display: none;
+}
+.content1_4_7.active {
+  display: block;
+}
+.content1_4_7 dl {
+  float: left;
+  margin-right: 60px;
+}
+.content1_4_7 dl dt {
+  font-size: 13px;
+  color: #969DA7;
+  /*height: 24px;*/
+}
+.content1_4_7 dl dd a {
+  display: inline-block;
+  background-color: #374457;
+  font-size: 14px;
+  width: 150px;
+  height: 35px;
+  /*padding-top: 8px;*/
+  padding-left: 15px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.content1_4_7 dl dd a:hover {
+  background-color: #387EE8;
+}
+
+
+
+
+
+/*尝试css方法解决滚动条问题*/
+/*解决!*/
+/*#ccc_7 {*/
+  /*position: absolute;*/
+  /*width: 18px;*/
+  /*height: 504px;*/
+  /*background-color: rgba(33,47,68,1);*/
+  /*left: 1108px;*/
+  /*top: 20px;*/
+/*}*/
+
+#poi_1_7::-webkit-scrollbar {
+  display: none;
+}
+#poi_2_7::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/*下拉栏的左边框设置*/
+
+
+
+
+
+
+
+
+

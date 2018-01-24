@@ -1,0 +1,409 @@
+/*banner1部分开始*/
+/*body{*/
+  /*overflow-x: hidden;*/
+/*}*/
+.banner1 {
+  width: 100%;
+  height: 560px;
+  position: relative;
+}
+.banner1 .img{
+  position: absolute;
+  width: 100%;
+}
+.banner1 .img img{
+  width: 100%;
+  height: 560px;
+}
+.banner1_img .banner1_content{
+  position: absolute;
+  top: 30%;
+}
+.banner1_content h1 {
+  font-size: 46px;
+  height: 68px;
+  color: #fff;
+}
+.banner1_content p {
+  font-size: 25px;
+  height: 68px;
+  color: #fff;
+}
+.banner1_content a {
+  display: inline-block;
+  width: 160px;
+  height: 38px;
+  border: 1px solid #fff;
+  line-height: 38px;
+  text-align: center;
+  background-color: #1e1a30;
+  font-size: 16px;
+  color: #fff;
+}
+.banner1_content a:hover{
+  background-color: deeppink;
+}
+.banner1_bot {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(34,31,52,.3);
+  position: absolute;
+  bottom:0;
+}
+.banner1_bot a {
+  color: #a5a4ac;
+  padding-right: 94px;
+}
+.banner1_bot a:last-child{
+  padding-right: 0;
+}
+.banner1_bot a:hover {
+  color: deeppink;
+  text-decoration: underline;
+}
+.banner1 ul {
+  position: absolute;
+  width: 400px;
+  bottom:60px;
+  left: 50%;
+  margin-left: -200px;
+}
+.banner1 ul li {
+  width: 48px;
+  height: 6px;
+  border-radius: 4px;
+  background-color: #5c4f81;
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+
+.banner1 ul li span {
+  position: absolute;
+  width: 0;
+  height: 6px;
+  border-radius: 4px;
+  top: 0;
+  background-color: deeppink;
+}
+/*banner1部分结束*/
+
+/*newUser新用户和入门指南部分开始*/
+.newUser {
+  height: 108px;
+  background-color: #f0f3f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.newUser .content {
+  width: 280px;
+  height: 86px;
+  float: left;
+  margin-right: 20px;
+  padding-top: 24px;
+}
+.newUser .content:last-child {
+  margin-right: 0;
+}
+.newUser .content .fl{
+  margin-left: 24px;
+  cursor: pointer;
+}
+.newUser .content h3{
+  height: 34px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+}
+/*newUser新用户和入门指南部分结束*/
+
+/*丰富、稳定、可靠的场景化云服务开始*/
+.cloudServe {
+  padding-top: 90px;
+}
+.cloudServe .w{
+  height: 660px;
+  position: relative;
+}
+.cloudServe .w h3{
+  font-size: 28px;
+}
+.cloudServe .serveContent {
+  width: 370px;
+  height: 490px;
+  border: 1px solid #d8dee5;
+  position: absolute;
+  top: 100px;
+  cursor: pointer;
+  background: url("../images/basic.png") right no-repeat;
+}
+.cloudServe .serveContent:hover{
+  box-shadow: 0 0 5px 3px #ccc;
+}
+.cloudServe .serveContent.c2{
+  left:410px;
+  background: url("../images/media.png") right no-repeat;
+}
+.cloudServe .serveContent.c3{
+  right: 0;
+  background: url("../images/safe.png") right no-repeat;
+}
+.cloudServe .serveContent .top{
+  height: 104px;
+  /*width: 280px;*/
+  border-bottom: 1px solid #d8dee5;
+  background-color: #f5f7fa;
+  text-align: center;
+  padding: 0 45px 20px 45px;
+  color: #000;
+}
+.cloudServe .serveContent .top h4{
+  height: 70px;
+  line-height: 70px;
+  font-size: 24px;
+}
+.cloudServe .serveContent .content li{
+  margin-top: 32px;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+.cloudServe .serveContent .content li h4{
+  height: 30px;
+  font-size: 18px;
+}
+/*丰富、稳定、可靠的场景化云服务结束*/
+
+/*持续发展助力客户成功部分开始*/
+.development {
+  height: 480px;
+  padding-top: 90px;
+  background: #2a2d48 url(../images/development.png) 0 0 no-repeat;
+  position: relative;
+}
+.development h3 {
+  font-size: 26px;
+  color: #fff;
+  height: 40px;
+
+}
+.development p {
+  color: #fff;
+}
+.development .content{
+  width: 230px;
+  padding: 26px 20px 0 20px;
+  height: 284px;
+  position: absolute;
+  background: url(../images/mongodb.png) bottom;
+  bottom: 0;
+  text-align: center;
+  border-radius: 60px;
+  cursor: pointer;
+}
+.development .content:nth-child(2){
+  background: url(../images/yzj.png) bottom;
+  left: 270px;
+}
+.development .content:nth-child(3){
+  background: url(../images/fwkz.png) bottom;
+  left: 540px;
+}
+.development .content:nth-child(4){
+  background: url(../images/zsy.png) bottom;
+  left: 810px;
+}
+.development .content:nth-child(5){
+  background: url(../images/xxdl.png) bottom;
+  right: 0;
+}
+.development .content h3{
+  font-size: 20px;
+  height: 38px;
+}
+.development .content p {
+  color: #a4a7ba;
+  height: 20px;
+}
+/*持续发展助力客户成功部分结束*/
+
+/*他们都在使用网易云部分开始*/
+.useCloud{
+  
+}
+.useCloud .w {
+  padding-top: 90px;
+}
+.useCloud .w>h3 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin-bottom: 100px;
+}
+.useCloud .top ul li {
+  float: left;
+  width: 390px;
+  height: 230px;
+  /*background-color: deeppink;*/
+  margin-bottom: 80px;
+  text-align: center;
+  padding-top:20px;
+  cursor: pointer;
+  position: relative;
+}
+.useCloud .top ul li div.display{
+  width: 340px;
+  height: 195px;
+  padding: 35px 25px 0 25px;
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  background-color: pink;
+  /*opacity: .9;*/
+  display: none;
+}
+.useCloud .top ul li div.display h3{
+  font-size: 22px;
+  height: 40px;
+}
+.useCloud .top ul li div.display p{
+  line-height: 20px;
+  text-align: left;
+}
+.useCloud .top ul li div.display span{
+  display: block;
+  text-align: right;
+}
+.useCloud ul li h4 {
+  margin-top: 40px;
+  height: 48px;
+  font-size: 20px;
+}
+
+.useCloud .bottom {
+  height: 280px;
+  background: url(../images/bottomBg.png);
+  background-size: cover;
+}
+.useCloud .bottom ul li {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+.useCloud .bottom ul li p:first-child{
+   font-size: 22px;
+  color: #fff;
+}
+.useCloud .bottom ul li p:nth-child(2){
+  font-size: 16px;
+  color: #fff;
+}
+.useCloud .bottom ul li span{
+  font-size: 44px;
+}
+/*他们都在使用网易云部分结束*/
+
+/*合作伙伴部分开始*/
+.partner {
+  height: 440px;
+  padding-top: 90px;
+}
+.partner h3 {
+  font-size: 24px;
+  height: 54px;
+  color: #000;
+}
+.partner ul {
+  margin: 0 auto;
+  width: 1050px;
+}
+.partner ul li {
+  width: 210px;
+  height: 105px;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  margin-left: -1px;
+  margin-top: -1px;
+  padding-left: 50px;
+  padding-top: 39px;
+}
+.partner ul li div {
+  width: 160px;
+  height: 66px;
+  background: url(../images/partner1.png) 0 0 no-repeat;
+}
+.partner ul li:nth-child(2) div{
+  background: url(../images/partner2.png) 0 0 no-repeat;
+}
+.partner ul li:nth-child(3) div{
+  background: url(../images/partner3.png) 0 0 no-repeat;
+}
+.partner ul li:nth-child(4) div{
+  background: url(../images/partner4.png) 0 0 no-repeat;
+}
+.partner ul li:nth-child(5) div{
+  background: url(../images/partner5.png) 0 0 no-repeat;
+}
+.partner ul li:nth-child(6) div{
+  background: url(../images/partner6.png) 0 0 no-repeat;
+}
+.partner ul li:nth-child(7) div{
+  background: url(../images/partner7.png) 0 0 no-repeat;
+}
+.partner ul li:nth-child(8) div{
+  background: url(../images/partner8.png) 0 0 no-repeat;
+}
+.partner ul li div:hover{
+  background-position: 0 -66px;;
+}
+/*合作伙伴部分结束*/
+/*国际认证部分开始*/
+.international{
+  height: 170px;
+  background-color: #f0f3f7;
+}
+.international ul li {
+  width: 236px;
+  float: left;
+  cursor: pointer;
+}
+.international ul li img {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.international ul li p {
+  text-align: center;
+  height: 56px;
+}
+/*国际认证部分结束*/
+
+/*新人注册部分开始*/
+.newRegister{
+  height: 220px;
+  background: url("../images/newRegister.png");
+}
+.newRegister .w{
+  height: 168px;
+  text-align: center;
+  padding-top: 52px;
+}
+.newRegister h3{
+  font-size: 24px;
+  color: #fff;
+}
+.newRegister a{
+  display: inline-block;
+  font-size: 16px;
+  width: 132px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 40px;
+}
+.newRegister a:hover{
+  background-color: deeppink;
+  color: lightblue;
+}
+/*新人注册部分结束*/

@@ -1,0 +1,259 @@
+.banner8{
+    height: 500px;
+
+    background-image: url("../img/header_banner.jpg");
+    background-position: center;
+}
+.banner8 .txt8{
+    position: absolute;
+    left:90px;
+    top:156px;
+    width: 564px;
+    color: white;
+}
+.banner8 .txt8 h2{
+    font-size: 42px;
+    font-weight: 400;
+}
+.banner8 .txt8 p{
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 26px;
+}
+.banner8 .txt8 a{
+    color: white;
+}
+ .banner8 .txt8 span{
+    display: block;
+    margin-top: 100px;
+    width: 184px;
+    height: 40px;
+    background-color: #387ee8;
+    text-align: center;
+    line-height: 40px;
+
+}
+.nav8{
+    height: 60px;
+    background-color: #f0f3f7;
+    line-height: 60px;
+}
+.nav8 ul a{
+    color:#222222 ;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav8 li{
+    float: left;
+    margin-right: 96px;
+}
+.nav8 ul{
+    height: 60px;
+}
+.nav8 ul a:hover{
+    color: cornflowerblue;
+}
+.scene8{
+    width: 600px;
+    height: 650px;
+    position: relative;
+}
+.scene8 .photo8{
+    float: left;
+}
+.scene8 .photo8  .photo81{
+    position: absolute;
+    left: 98px;
+    top:160px;
+}
+.scene8 .photo8  .photo82{
+    position: absolute;
+    left: 489px;
+    top:106px;
+}
+.scene8 .photo8  .photo83{
+    position: absolute;
+    left: 445px;
+    top:369px;
+}
+.scene8 h2{
+    margin-left: 90px;
+    margin-top: 55px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #333333;
+}
+/*先让所有的文字隐藏*/
+.scene8 .txt8{
+    position: absolute;
+    left: 854px;
+    top:183px;
+    color: #333333;
+    width: 408px;
+    height: 300px;
+    display: none;
+}
+/*如果引入active类，就会显示文字*/
+.scene8 .txt8.active8{
+    display: block;
+}
+.scene8 .txt8 h3{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+.scene8 .txt8>p{
+    margin-top: 24px;
+    /*margin-bottom: 27px;*/
+    font-size: 14px;
+    color: #666666;
+}
+.scene8 .txt8  ul li div{
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight:500;
+    font-family: '宋体';
+    color: #333333;
+}
+.scene8 .txt8 ul li p{
+    margin-top: 13px;
+    font-size: 14px;
+    font-family: '宋体';
+    color: #666666;
+}
+/*.scene8 .photo8 .photo81,.scene8 .photo8 .photo82,.scene8 .photo8 .photo83{*/
+    /*box-shadow: 3px 3px 8px 5px #4385f8;*/
+/*}*/
+/*.scene8 .photo81 div{*/
+    /*width: 581px;*/
+    /*height: 432px;*/
+    /*transform: rotateZ(45deg);*/
+    /*position: absolute;*/
+    /*box-shadow: 3px 3px 8px 5px #4385f8;*/
+/*}*/
+.scene8 .photo8 .picture81{
+    position: absolute;
+    left: 98px;
+    top:145px;
+    display: none;
+}
+.scene8 .photo8 .picture82{
+    position: absolute;
+    left: 489px;
+    top:95px;
+    display: none;
+}
+.scene8 .photo8 .picture83{
+     position: absolute;
+    left: 445px;
+    top:355px;
+    display: none;
+}
+/*图片显示需要添加的类名*/
+.scene8 .active8{
+    display: block;
+}
+.advantage8 h2{
+    /*margin-left: 90px;*/
+    /*margin-top: 60px;*/
+    padding-top: 60px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 44px;
+
+}
+.advantage8{
+    height: 700px;
+    background-color: #f5f5f6;
+}
+.advantage8 .line8{
+    /*height: 88px;*/
+    border-bottom: 1px solid #ccc;
+    /*position: relative;*/
+}
+.advantage8 .line8 .pvivate8{
+   /*position: absolute;*/
+    /*left: 462px;*/
+    /*top: 45px;*/
+    font-size: 21px;
+    line-height: 21px;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 25px;
+    cursor: pointer;
+
+}
+.advantage8 .line8 .pvivate8:hover{
+    color: red;
+}
+/*.advantage8 .line8 .pvivate8 span{*/
+   /*display: inline-block;*/
+    /**/
+    /*border-bottom: 5px solid blue;*/
+/*}*/
+.advantage8 .line8 .public8{
+   /*position: absolute;*/
+    /*left: 776px;*/
+    /*top: 45px;*/
+    font-size: 21px;
+    line-height: 21px;
+    display: inline-block;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+.advantage8 .line8 .public8:hover{
+    color:red;
+}
+/*私有部分*/
+.advantage8 .private81 .private_photo8{
+    margin-top: 76px;
+    display: inline-block;
+    width: 568px;
+    margin-left: 100px;
+}
+.advantage8 .private81 .private_txt8 {
+    float: right;
+    width: 468px;
+    height: 369px;
+    margin-top: 60px;
+}
+/*.advantage8 .private81 .private_txt8 ul li{*/
+    /*width: 468px;*/
+    /*height: 43px;*/
+/*}*/
+.advantage8 .private81 .private_txt8 ul .picture8{
+    float: left;
+    width: 77px;
+    height: 65px;
+    /*margin-right: 15px;*/
+}
+.advantage8 .private81 .private_txt8 ul .txt8{
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+.advantage8 .private81 .private_txt8 .txt8 h3{
+    font-size: 16px;
+    font-weight: 700;
+}
+.advantage8 .private81 .private_txt8 .txt8 p{
+    font-size: 14px;
+}
+.advantage8 .private81 .private_txt8 ul li{
+    height: 76px;
+}
+.advantage8 .private81 {
+    display: none;
+}
+/*让私有和共有部分共同显示*/
+.advantage8 .private81.active8{
+    display: block;
+}

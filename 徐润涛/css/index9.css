@@ -1,0 +1,307 @@
+/*标题部分*/
+.bg-maker_title9{
+  padding-top: 70px;
+  height: 26px;
+  padding-bottom: 40px;
+}
+.bg-maker_title9 h4{
+  font-size: 24px;
+}
+.bg-maker_title9 a {
+  font-size: 14px;
+  color: #387EE8;
+  cursor: pointer;
+}
+/*返回顶部*/
+.return-top{
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+}
+/*顶部大图*/
+.topImg9{
+  background: url(../images_9/maker-banner.png)center;
+  height: 500px;
+  width: 100%;
+}
+.photofont9{
+  position: absolute;
+  top: 136px;
+  color: white;
+  width: 550px;
+}
+.photofont9 h1{
+  font: 42px '宋体';
+  font-weight: 100;
+  /*line-height: 65px;*/
+}
+.photofont9 p{
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 18px;
+  margin-bottom: 42px;
+}
+/*创业部分*/
+.start9  .maker_title9 a:hover{
+  border-bottom: 1px solid;
+}
+.start9 .m_item{
+  height: 406px;
+}
+.start9 .m_item9 li{
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  margin-bottom: 86px;
+}
+.start9 .m_item9 li h5{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 23px;
+}
+.start9 .m_item9 li p{
+  font-size: 14px;
+  color: #333333;
+  margin-top: 16px;
+}
+/*创业培训部分*/
+.maker_training9{
+  height: 492px;
+  background-color: #F0F2F5;
+}
+.maker_training9 ul .training_item9{
+  width: 210px;
+  height: 276px;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 3px #ccc;
+
+}
+.maker_training9 ul .training_item9+.training_item9{
+  margin-left: 30px;
+}
+.maker_training9 ul .content9{
+  padding: 12px 24px 0 24px;
+}
+.maker_training9 ul .content9 .title{
+  font-size: 18px;
+  font-weight: 700;
+}
+.maker_training9 ul .content9 .desc{
+  margin-top: 10px;
+}
+/*园区/孵化器入驻*/
+.maker_settle9 .m_settle{
+  height: 365px;
+  border: 1px solid #E6E6E6;
+  padding-top: 20px;
+  margin-bottom: 103px;
+  position: relative;
+
+}
+/*.maker_settle9 .m_settle ul{*/
+  /*height: 385px;*/
+/*}*/
+.maker_settle9 .m_settle .settle_item{
+  display: inline-block;
+  width: 294px;
+  height: 345px;
+}
+.maker_settle9 .m_settle .settle_item .show{
+  width: 286px;
+  height: 345px;
+  z-index: 1;
+}
+.maker_settle9 .m_settle .settle_item .img{
+  width: 294px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.maker_settle9 .m_settle .settle_item .content{
+  margin-left: -1px;
+}
+.maker_settle9 .m_settle .settle_item .content h5{
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  border: 0px;
+  /*margin-bottom: 25px;*/
+}
+.maker_settle9 .m_settle .settle_item .content .desc{
+  margin-top: 25px;
+  line-height: 24px;
+  color: #333;
+  padding: 0 24px;
+  border-left: 1px solid #E6E6E6;
+}
+.maker_settle9 .m_settle .settle_box{
+  display: none;
+  position: absolute;
+  height: 421px;
+  top: -16px;
+  left:-18px;
+  width: 321px;
+  z-index: 2;
+
+}
+.maker_settle9 .m_settle .settle_box.active{
+  display: block;
+  position: absolute;
+  height: 421px;
+  top: -16px;
+  left:-18px;
+  width: 321px;
+  z-index: 2;
+}
+.maker_settle9 .m_settle .settle_box h5 {
+  background-color: #4385F8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  width: 321px;
+}
+.maker_settle9 .m_settle .settle_box .content{
+  background-color: #fff;
+  height: 320px;
+  padding: 0 24px;
+  border: 1px solid #4385F8;
+}
+.maker_settle9 .m_settle .settle_box .name{
+  margin-top: 12px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.maker_settle9 .m_settle .settle_box .desc{
+  margin-top: 12px;
+  line-height: 24px;
+}
+.maker_settle9 .m_settle #auto-111{
+
+}
+.maker_settle9 .m_settle #auto-222{
+  top: -16px;
+  left: 277px;
+}
+.maker_settle9 .m_settle #auto-333{
+  top: -16px;
+  left: 571px;
+}
+.maker_settle9 .m_settle #auto-444{
+  left: 865px;
+}
+/*融资申请部分*/
+.maker_banner9{
+  background: url("../images_9/maker-financing.png");
+  height: 635px;
+  /*position: relative;*/
+  overflow: hidden;
+}
+.maker_banner9 #rz_title9{
+  color: #ffffff;
+}
+.maker_banner9 #rz_title9 a{
+  color: #ffffff;
+}
+.maker_banner9 #financing9{
+  width: 95px;
+  height: 192px;
+  /*line-height: 86px;*/
+  /*position: absolute;*/
+  /*left: 24px;*/
+  /*text-align: center;*/
+  display: inline-block;
+}
+.maker_banner9 #financing9 .pager_link9{
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+
+  /*height: 40px;*/
+}
+.maker_banner9 #financing9 .pager_link9 a{
+  /*height: 40px;*/
+  padding: 10px;
+  color: #ffffff;
+  display: inline-block;
+}
+.maker_banner9 #financing9 .pager_link9 a .pager9{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 95px;
+  text-align: center;
+}
+.maker_banner9 #financing9 .pager_link9 a .pager9.active{
+  background-color: rgb(56,126,232);
+}
+.maker_banner9 .scroll9{
+  width: 1029px;
+  float: right;
+  color: #fff;
+  position: relative;
+  top: -200px;
+  /*border-left: 1px solid #ABACAF;*/
+  /*position: absolute;*/
+  /*top: 30px;*/
+  /*left: 100px;*/
+}
+.maker_banner9 .scroll9 .title_h4{
+  margin-top: 15px;
+}
+.maker_banner9 .scroll9 h4{
+  font-size: 18px;
+  margin-top: 30px;
+}
+.maker_banner9 .scroll9 .title{
+  color: #ABACAF;
+  margin-top: 17px;
+}
+.maker_banner9 .scroll9.active{
+  display: block;
+}
+.maker_banner9 .scroll9{
+  display: none;
+}
+/*常见问题部分*/
+.m-maker-cqac9{
+  background-color: #fff;
+  height: 375px;
+}
+.m-maker-cqac9 .cjwt9{
+  padding-top: 68px;
+  width: 50%;
+}
+.m-maker-cqac9 .cjwt9 h3{
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.m-maker-cqac9 .content .content-item{
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+.m-maker-cqac9 .content .content-item a:hover{
+  color: #387EE8;
+}
+.m-maker-cqac9 .lxfs9{
+  width: 50%;
+  padding-top: 68px;
+  height: 317px;
+}
+.m-maker-cqac9 .lxfs9 h3{
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.m-maker-cqac9 .lxfs9 .box{
+  width: 50%;
+  margin-bottom: 43px;
+}
+.m-maker-cqac9 .lxfs9 .box11+.box11{
+  margin-top: 15px;
+}

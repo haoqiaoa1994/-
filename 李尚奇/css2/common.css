@@ -1,0 +1,53 @@
+/*
+* @Author: 62633
+* @Date:   2017-10-29 17:18:23
+* @Last Modified by:   62633
+* @Last Modified time: 2017-10-29 18:33:34
+*/
+body,ul,h1,h2,h3,h4,h5,h6,input,button,p,dl {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  color:#666;
+}
+li {
+  list-style: none;
+}
+img {
+  border:0 none;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  color:rgb(241,21,2);
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+}
+input {
+  border: 0 none;
+  outline-style: none;
+}
+.w {
+  width: 1180px;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.clearfix:before,.clearfix:after{
+  content: "";
+  display: block;
+}
+.clearfix:after {
+  clear: both;
+}

@@ -1,0 +1,44 @@
+body,ul,dl,dd,dt,ol,input,p,h1,h2,h3,h4,h5,h6,button{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "microsoft yahei";
+}
+li{
+  list-style-type: none;
+}
+img,button{
+  border: 0 none;
+  vertical-align: middle;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 400;
+}
+input{
+  border:0 none;
+  outline-style: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix:before,.clearfix:after{
+  content: '';
+  display:table;
+}
+.clearfix:after{
+  clear:both;
+}
+.clearfix{
+  zoom: 1;
+}
+.w{
+  width: 1180px;
+  margin: 0 auto;
+}
